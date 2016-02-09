@@ -10,6 +10,7 @@
     <sprite>sprites\sPlayerChunk</sprite>
     <sprite>sprites\sBullet</sprite>
     <sprite>sprites\sAsteroid</sprite>
+    <sprite>sprites\TEST_DELETE</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
