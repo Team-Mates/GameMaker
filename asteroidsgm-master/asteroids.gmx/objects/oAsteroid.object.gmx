@@ -93,6 +93,14 @@ if instance_exists(incomingBullet){
 
     //destory asteroid
     if image_xscale &lt;= 0 {
+    
+        numberofBits = 5
+        bitsCreatedSoFar = 0
+        
+        while bitsCreatedSoFar &lt; numberofBits {
+            instance_create(x,y,oAsteroidChunk)
+            bitsCreatedSoFar = bitsCreatedSoFar + 1
+        }
         //instance_create(random(room_width), random(room_height),oAsteroid) 
         //instance_create(random(room_width), random(room_height),oAsteroid) 
         instance_create(0, random(room_height),oAsteroid)

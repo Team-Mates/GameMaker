@@ -10,6 +10,7 @@
     <sprite>sprites\sPlayerChunk</sprite>
     <sprite>sprites\sBullet</sprite>
     <sprite>sprites\sAsteroid</sprite>
+    <sprite>sprites\sAsteriodChunk</sprite>
     <sprite>sprites\TEST_DELETE</sprite>
   </sprites>
   <backgrounds name="background">
@@ -22,6 +23,7 @@
     <object>objects\oBullet</object>
     <object>objects\oAsteroid</object>
     <object>objects\oGame</object>
+    <object>objects\oAsteroidChunk</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
