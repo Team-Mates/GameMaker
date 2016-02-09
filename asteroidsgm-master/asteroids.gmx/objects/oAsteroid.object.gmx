@@ -97,6 +97,7 @@ if instance_exists(incomingBullet){
         numberofBits = 5
         bitsCreatedSoFar = 0
         
+        audio_play_sound(aAsteroidDestroy,1,false)
         while bitsCreatedSoFar &lt; numberofBits {
             instance_create(x,y,oAsteroidChunk)
             bitsCreatedSoFar = bitsCreatedSoFar + 1

@@ -88,6 +88,7 @@ image_angle = lookingVar
 if keyboard_check(vk_space){
 
     myBullet = instance_create(x, y,oBullet)
+    audio_play_sound(aShoot, 1, false)
     
     myBullet.direction = image_angle
     myBullet.speed = 600 / room_speed
