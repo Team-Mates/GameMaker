@@ -7,6 +7,7 @@
   <sounds name="sound">
     <sound>sound\aAsteroidDestroy</sound>
     <sound>sound\aShoot</sound>
+    <sound>sound\aShipExplode</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sPlayer</sprite>
@@ -14,7 +15,6 @@
     <sprite>sprites\sBullet</sprite>
     <sprite>sprites\sAsteroid</sprite>
     <sprite>sprites\sAsteriodChunk</sprite>
-    <sprite>sprites\TEST_DELETE</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
